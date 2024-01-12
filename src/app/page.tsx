@@ -10,6 +10,7 @@ export default function Index() {
       </div>
       <Link
         href="https://github.com/hkurma/nextjs-starter-template"
+        target="_blank"
         className="my-8"
       >
         <svg
