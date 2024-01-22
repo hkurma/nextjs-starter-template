@@ -1,9 +1,29 @@
 {
   "extends": ["next", "prettier"],
+  "plugins": ["import"],
   "rules": {
     "no-debugger": "error",
     "no-console": "error",
     "prefer-const": "error",
-    "no-unused-vars": "error"
+    "no-unused-vars": "error",
+    "import/order": [
+      "error",
+      {
+        "groups": ["builtin", "external", "internal"],
+        "pathGroups": [
+          {
+            "pattern": "react",
+            "group": "external",
+            "position": "before"
+          }
+        ],
+        "pathGroupsExcludedImportTypes": ["react"],
+        "newlines-between": "always",
+        "alphabetize": {
+          "order": "asc",
+          "caseInsensitive": true
+        }
+      }
+    ]
   }
 }
