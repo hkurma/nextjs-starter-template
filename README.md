@@ -2,6 +2,14 @@
 
 NextJS application starter template configured with shadcn/ui components, tailwindcss, eslint, prettier, husky and lint-staged.
 
+## Bootstrap your app with this template
+
+Run the following command to create a NextJS app using this template. Replace [YOUR_APP_NAME] with desired name for your app.
+
+```bash
+npx create-next-app --example https://github.com/hkurma/nextjs-starter-template [YOUR_APP_NAME]
+```
+
 ## NextJS
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
