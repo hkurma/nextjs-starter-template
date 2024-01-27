@@ -11,14 +11,12 @@ export const metadata: Metadata = {
     'NextJS application starter template configured with shadcn/ui components, tailwindcss, eslint, prettier, husky and lint-staged.',
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
   );
-}
+};
+
+export default RootLayout;

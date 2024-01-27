@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-export default function Index() {
+const Index = () => {
   return (
     <div className="h-screen max-w-screen-lg m-auto flex flex-col justify-center items-center text-center gap-4">
       <div className="text-4xl font-bold">NextJS Starter Template</div>
@@ -24,4 +24,6 @@ export default function Index() {
       </Link>
     </div>
   );
-}
+};
+
+export default Index;
