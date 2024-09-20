@@ -1,14 +1,14 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
+import { METADATA } from './constants';
 import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'NextJS Starter Template',
-  description:
-    'NextJS application starter template configured with shadcn/ui components, tailwindcss, eslint, prettier, husky and lint-staged.',
+  title: METADATA.TITLE,
+  description: METADATA.DESCRIPTION,
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {

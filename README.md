@@ -18,9 +18,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## UI Components
+## TailwindCSS
 
-This project uses ['shadcn/ui'](https://ui.shadcn.com/) components built using ['tailwindcss'](https://tailwindcss.com/).
+This project is configuerd with ['tailwindcss'](https://tailwindcss.com/).
+
+## Lucide Icons
+
+This project is configured with ['lucide icons'](https://lucide.dev/).
 
 ## ESLint, Prettier
 
